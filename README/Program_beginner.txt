@@ -1,0 +1,12 @@
+How to code arm assembly program in keil 5
+
+1. Open keil -> click project "New project" -> store it in a file
+2. Select device target tab will open choose STM32F100 or STM32F401RB -> STM32F100RB or STM32F401RBTX
+3. click ok
+4. On project tab right click source group 1 -> add new item -> Asm file(.s)
+5. give a name to the file -> add 
+6. Write the code in the file
+7. On project tab right click Target1 -> options for target -> debug -> use simulator
+8. build the project
+9. Under debug menu -> start/stop debug session
+10. Use the step or f11 to compile step by step
